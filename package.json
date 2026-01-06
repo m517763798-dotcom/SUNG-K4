@@ -1,0 +1,19 @@
+
+{
+  "name": "tiktok-downloader-api",
+  "version": "1.0.0",
+  "description": "Express API proxy for TikTok download via ssstik.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js"
+  },
+  "keywords": ["tiktok", "download", "express", "axios", "cheerio"],
+  "author": "Mohammad Abdallah (SUNG-K4)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0",
+    "express": "^4.19.2"
+  }
+}
